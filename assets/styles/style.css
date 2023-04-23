@@ -116,10 +116,12 @@ body {
   flex-direction: column;
   gap: 16px;
 }
-#links-container li {
-  text-align: center;
+#links-container a {
+  display: flex;
+  justify-content: center;
 
   padding: 16px 24px;
+
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
@@ -129,7 +131,7 @@ body {
   font-weight: 500;
   transition: 0.3s;
 }
-#links-container li:hover {
+#links-container a:hover {
   background: var(--surface-color-hover);
   border: 1px solid var(--text-color);
 }
