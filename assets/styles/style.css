@@ -10,20 +10,27 @@
 }
 
 :root {
-  --text-color: white;
+  /* --text-color: white;
   --bg-url: url(../images/night-8bits.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
-  --switch: url(../images/moon.svg);
-}
+  --switch: url(../images/moon.svg); */
 
-.light {
   --text-color: black;
   --bg-url: url(../images/day-8bits.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.05);
+  --switch: url(../images/moon.svg);
+}
+
+.light {
+  --text-color: white;
+  --bg-url: url(../images/night-8bits.png);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.05);
   --switch: url(../images/sun.svg);
 }
 
