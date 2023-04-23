@@ -11,7 +11,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(../images/bg-mobile.jpg);
+  --bg-url: url(../images/night-8bits.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -20,7 +20,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(../images/bg-mobile-light.jpg);
+  --bg-url: url(../images/day-8bits.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.05);
@@ -28,11 +28,17 @@
 }
 
 body {
-  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #container {
   width: 360px;
-  margin: 50px auto 0px;
   padding: 0px 24px;
 }
 
