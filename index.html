@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +19,7 @@
         <p id="profile-name">@isaackosmos</p>
       </div>
 
-      <div id="switch">
+      <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
@@ -27,13 +27,17 @@
       <div id="links-container">
         <ul>
           <li>
-            <a href="" target="_blank">1</a>
+            <a href="https://www.instagram.com/isaackosmos" target="_blank"
+              >Instagram</a
+            >
           </li>
           <li>
-            <a href="" target="_blank">2</a>
+            <a href="https://github.com/isaackosmos" target="_blank">GitHub</a>
           </li>
           <li>
-            <a href="" target="_blank">3</a>
+            <a href="https://www.facebook.com/isaac.kosmos/" target="_blank"
+              >Facebook</a
+            >
           </li>
           <li>
             <a href="" target="_blank">4</a>
@@ -42,8 +46,10 @@
       </div>
 
       <div id="social-links">
-        <a href="" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-        <a href="" target="_blank"
+        <a href="https://github.com/isaackosmos" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/isaackosmos" target="_blank"
           ><ion-icon name="logo-instagram"></ion-icon
         ></a>
         <a href="" target="_blank"
@@ -65,5 +71,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./assets/scripts/script.js"></script>
   </body>
 </html>
