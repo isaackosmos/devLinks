@@ -3,9 +3,6 @@
 <p align="center">
   Projeto desenvolvido com a aprendizagem.  
 </p>
-<p align="center">
-  <img src=".github/print-projeto.png">
-</p>
 
 ## Tecnologias
 
