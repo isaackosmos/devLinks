@@ -1,8 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-  Projeto desenvolvido com a aprendizagem de um mini curso da Rocketseat.  
-  <a href="https://app.rocketseat.com.br/devlinks">Link do curso</a>
+  Projeto desenvolvido com a aprendizagem.  
 </p>
 <p align="center">
   <img src=".github/print-projeto.png">
